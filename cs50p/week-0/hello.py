@@ -5,6 +5,9 @@ name = input("What's your name? ")
 # Remove whitespace from str
 name = name.strip()
 
+# Capitalize user's name
+name = name.capitalize()
+
 """
 Say hello to user - used the f-string is short for formatted string literal to
 allow me to add the variable directly in the string and avoid joining 2 strings with +
