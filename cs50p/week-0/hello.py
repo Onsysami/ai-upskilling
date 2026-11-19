@@ -1,9 +1,10 @@
 # Ask user for their name
-name = input("What's your name? ")
+name = input("What's your name? ").strip().title()
 
 
 # Remove whitespace from str
-name = name.strip().title()
+# name = name.strip().title() simplified it even further and added the functions to
+# the first line
 
 # Capitalize user's name - unlike .capitalize() the .title() function capitalizes like
 # in a title - not just the first word that is typed
