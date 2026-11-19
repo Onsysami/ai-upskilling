@@ -3,10 +3,11 @@ name = input("What's your name? ")
 
 
 # Remove whitespace from str
-name = name.strip()
+name = name.strip().title()
 
-# Capitalize user's name
-name = name.capitalize()
+# Capitalize user's name - unlike .capitalize() the .title() function capitalizes like
+# in a title - not just the first word that is typed
+# name = name.title() I now chained it to the previous function
 
 """
 Say hello to user - used the f-string is short for formatted string literal to
