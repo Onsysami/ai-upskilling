@@ -26,9 +26,9 @@ by name
 
 
 # starting over completely - we're working to define (def) create our own function - added a parameter "to"
-def hello(to):
+def hello(to="world"):
     print("hello,", to)
 
-
+hello()
 name = input("What's your name? ")
 hello(name)
