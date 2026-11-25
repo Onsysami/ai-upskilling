@@ -36,11 +36,21 @@ by name
 
 
 # Now we're redefining the how the function is declared -  this now works - this can cause scope issues if it's defined in one function but not in the other
+# def main():
+#    name = input("What's your name? ")
+#    hello()
+
+# def hello():
+#    print("hello,", name)
+
+# main()
+
+# Back to what we had before
 def main():
     name = input("What's your name? ")
-    hello()
+    hello(name)
 
-def hello():
-    print("hello,", name)
+def hello(to="world"):
+    print("hello,", to)
 
-main()
+    main()
