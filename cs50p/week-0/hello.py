@@ -25,10 +25,22 @@ by name
 # Python documentation => end = "\n" and sep = " " by default
 
 
-# starting over completely - we're working to define (def) create our own function - added a parameter "to"
+# starting over completely - we're working to define (def) create our own function - added a parameter "to" - notice how by default it says hello, world before asking me for my name
+# defining own function is to avoid having to repeat again and again if you just wanted to say hello
+# def hello(to="world"):
+#    print("hello,", to)
+
+# hello()
+# name = input("What's your name? ")
+# hello(name)
+
+
+# Now we're redefining the how the function is declared
+def main():
+    name = input("What's your name? ")
+    hello(name)
+
 def hello(to="world"):
     print("hello,", to)
 
-hello()
-name = input("What's your name? ")
-hello(name)
+main()
