@@ -26,6 +26,10 @@ by name
 
 
 # starting over completely - we're working to define (def) create our own function
+def hello():
+    print("hello")
+
+
 name = input("What's your name? ")
 hello()
 print(name)
