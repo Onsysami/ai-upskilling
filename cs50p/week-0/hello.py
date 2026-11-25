@@ -25,11 +25,10 @@ by name
 # Python documentation => end = "\n" and sep = " " by default
 
 
-# starting over completely - we're working to define (def) create our own function
-def hello():
-    print("hello")
+# starting over completely - we're working to define (def) create our own function - added a parameter "to"
+def hello(to):
+    print("hello,", to)
 
 
 name = input("What's your name? ")
-hello()
-print(name)
+hello(name)
