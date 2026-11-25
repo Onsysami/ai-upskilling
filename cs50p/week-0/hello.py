@@ -1,5 +1,5 @@
 # Ask user for their name
-name = input("What's your name? ").strip().title()
+# name = input("What's your name? ").strip().title()
 
 
 # Remove whitespace from str
@@ -11,7 +11,7 @@ name = input("What's your name? ").strip().title()
 # name = name.title() I now chained it to the previous function
 
 # Split user's name into first name and last name
-first, last = name.split(" ")
+# first, last = name.split(" ")
 
 """
 Say hello to user - used the f-string is short for formatted string literal to
@@ -20,6 +20,12 @@ NOTE: print is a positional parameter what ever is printed first will appear fir
 sep and end are named parameters because they're optional and they can also be used
 by name
 """
-print(f"hello, {first}")
+# print(f"hello, {first}")
 
 # Python documentation => end = "\n" and sep = " " by default
+
+
+# starting over completely - we're working to define (def) create our own function
+name = input("What's your name? ")
+hello()
+print(name)
