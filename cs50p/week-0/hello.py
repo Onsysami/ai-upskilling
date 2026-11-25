@@ -35,7 +35,7 @@ by name
 # hello(name)
 
 
-# Now we're redefining the how the function is declared -  this now works
+# Now we're redefining the how the function is declared -  this now works - this can cause scope issues if it's defined in one function but not in the other
 def main():
     name = input("What's your name? ")
     hello()
